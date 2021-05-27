@@ -203,7 +203,7 @@ module = 'pillar1_covid_update'
 Spreadsheet = 'excel.exe'
 
 # Input data column numbers
-Columns = {'Area':0,'Type':2,'Date':3,'Daily':4,'Cumulative':5,'Rate':6}
+Columns = {'Area':1,'Type':2,'Date':3,'Daily':6,'Cumulative':4,'Rate':5}
 
 # Output data columns
 OutColumns = ['Area','Date','Daily','Infectious','Cumulative','Rate']

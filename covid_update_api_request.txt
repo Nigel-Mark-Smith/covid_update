@@ -1,52 +1,58 @@
-COVID data requests
-===================
-This document contains the url's and curl commands which provide the same data as the 
-data requests made in the script 'general_alerts.py' Using these it is possible to make
-a quick manual verification that the necessary queries supported at the following
-end point are working:
+COVID-19 data requests
+======================
+This document contains curl commands which provide the same data as the 
+various data requests made by the script 'pillar1_covid_update.py' as invoked 
+in script 'covid_update.bat'. The curl commands provide a quick way of manually
+checking the availability of the data.
 
-https://api.coronavirus.data.gov.uk/v1/data 
+Nation
+------
 
-1. Overview requests
-====================
+https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv
 
-https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&structure=%7B%22Date%22:%22date%22,%22Cases%22:%22cumCasesByPublishDate%22,%22PillarOneTests%22:%22cumPillarOneTestsByPublishDate%22,%22PillarTwoTests%22:%22cumPillarTwoTestsByPublishDate%22,%22Deaths%22:%22cumDeaths28DaysByPublishDate%22%7D
+- Check data available
 
-curl -sI "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&structure=%7B%22Date%22:%22date%22,%22Cases%22:%22cumCasesByPublishDate%22,%22PillarOneTests%22:%22cumPillarOneTestsByPublishDate%22,%22PillarTwoTests%22:%22cumPillarTwoTestsByPublishDate%22,%22Deaths%22:%22cumDeaths28DaysByPublishDate%22%7D"
+curl -sI "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv" | findstr /C:"HTTP/1.1"
 
-2. Latest overview request
-==========================
+- Download data to temp file
 
-https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&structure=%7B%22Date%22:%22date%22,%22Cases%22:%22cumCasesByPublishDate%22,%22PillarOneTests%22:%22cumPillarOneTestsByPublishDate%22,%22PillarTwoTests%22:%22cumPillarTwoTestsByPublishDate%22,%22Deaths%22:%22cumDeaths28DaysByPublishDate%22%7D&latestBy=%22cumPillarOneTestsByPublishDate%22
+curl -o \temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv" 
 
-curl -sI "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&structure=%7B%22Date%22:%22date%22,%22Cases%22:%22cumCasesByPublishDate%22,%22PillarOneTests%22:%22cumPillarOneTestsByPublishDate%22,%22PillarTwoTests%22:%22cumPillarTwoTestsByPublishDate%22,%22Deaths%22:%22cumDeaths28DaysByPublishDate%22%7D&latestBy=%22cumPillarOneTestsByPublishDate%22"
+Region
+------
 
-3. LTLA cases request ( Worthing )
-==================================
+https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv
 
-https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=ltla;areaName=Worthing&structure=%7B%22Date%22:%22date%22,%22Cases%22:%22cumCasesBySpecimenDate%22%7D
+- Check data available
 
-curl -sI "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=ltla;areaName=Worthing&structure=%7B%22Date%22:%22date%22,%22Cases%22:%22cumCasesBySpecimenDate%22%7D"
+curl -sI "https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv" | findstr /C:"HTTP/1.1"
 
-4. LTLA latest cases requset( worthing )
-========================================
+- Download data to temp file
 
-https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=ltla;areaName=Worthing&structure=%7B%22Date%22:%22date%22,%22Cases%22:%22newCasesByPublishDate%22%7D&latestBy=%22newCasesByPublishDate%22
+curl -o \temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv"
 
-curl -sI "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=ltla;areaName=Worthing&structure=%7B%22Date%22:%22date%22,%22Cases%22:%22newCasesByPublishDate%22%7D&latestBy=%22newCasesByPublishDate%22"
+utla
+----
 
-5.  LTLA deaths request ( Worthing )
-====================================
+https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv"
 
-https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=ltla;areaName=Worthing&structure=%7B%22Date%22:%22date%22,%22Cases%22:%22cumDeaths28DaysByPublishDate%22%7D
+- Check data available
 
-curl -sI "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=ltla;areaName=Worthing&structure=%7B%22Date%22:%22date%22,%22Cases%22:%22cumDeaths28DaysByPublishDate%22%7D"
+curl -sI "https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv" | findstr /C:"HTTP/1.1"
 
-6.  LTLA latest deaths request ( Worthing )
-===========================================
+- Download data to temp file
 
-https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=ltla;areaName=Worthing&structure=structure=%7B%22Date%22:%22date%22,%22Cases%22:%22newDeaths28DaysByPublishDate%22%7D&latestBy=%22newDeaths28DaysByPublishDate%22
+curl -o \temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv"
 
-curl -sI "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=ltla;areaName=Worthing&structure=structure=%7B%22Date%22:%22date%22,%22Cases%22:%22newDeaths28DaysByPublishDate%22%7D&latestBy=%22newDeaths28DaysByPublishDate%22"
+ltla
+----
 
+https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv
 
+- Check data available
+
+curl -sI "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv" | findstr /C:"HTTP/1.1"
+
+- Download data to temp file
+
+curl -o \temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv"
