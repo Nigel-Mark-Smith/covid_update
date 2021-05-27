@@ -1,0 +1,39 @@
+Wed May 26 16:52:02 2021 INFO: pillar1_covid_update: Started
+Wed May 26 16:52:02 2021 INFO: pillar1_covid_update: Reading configuration file C:\covid_update\config\nation.csv 
+Wed May 26 16:52:02 2021 INFO: pillar1_covid_update: Retrieving file https://coronavirus.data.gov.uk/downloads/csv/coronavirus-cases_latest.csv 
+Wed May 26 16:52:03 2021 INFO: pillar1_covid_update: Extracting data for nation ['England'] 
+Wed May 26 16:52:03 2021 INFO: pillar1_covid_update: 0 data rows were found for nation England 
+Wed May 26 16:52:04 2021 INFO: pillar1_covid_update: Started
+Wed May 26 16:52:04 2021 INFO: pillar1_covid_update: Reading configuration file C:\covid_update\config\region.csv 
+Wed May 26 16:52:04 2021 INFO: pillar1_covid_update: Retrieving file https://coronavirus.data.gov.uk/downloads/csv/coronavirus-cases_latest.csv 
+Wed May 26 16:52:04 2021 INFO: pillar1_covid_update: Extracting data for region ['South East', 'East of England'] 
+Wed May 26 16:52:04 2021 INFO: pillar1_covid_update: 0 data rows were found for region South East 
+Wed May 26 16:52:04 2021 INFO: pillar1_covid_update: 0 data rows were found for region East of England 
+Wed May 26 16:52:05 2021 INFO: pillar1_covid_update: Started
+Wed May 26 16:52:05 2021 INFO: pillar1_covid_update: Reading configuration file C:\covid_update\config\upper.csv 
+Wed May 26 16:52:05 2021 INFO: pillar1_covid_update: Retrieving file https://coronavirus.data.gov.uk/downloads/csv/coronavirus-cases_latest.csv 
+Wed May 26 16:52:05 2021 INFO: pillar1_covid_update: Extracting data for utla ['East Sussex', 'Brighton and Hove', 'Norfolk', 'Oxfordshire', 'West Sussex'] 
+Wed May 26 16:52:05 2021 INFO: pillar1_covid_update: 0 data rows were found for utla East Sussex 
+Wed May 26 16:52:05 2021 INFO: pillar1_covid_update: 0 data rows were found for utla Brighton and Hove 
+Wed May 26 16:52:05 2021 INFO: pillar1_covid_update: 69 data rows were found for utla Norfolk 
+Wed May 26 16:52:05 2021 INFO: pillar1_covid_update: 0 data rows were found for utla Oxfordshire 
+Wed May 26 16:52:05 2021 INFO: pillar1_covid_update: 0 data rows were found for utla West Sussex 
+Wed May 26 16:52:08 2021 INFO: pillar1_covid_update: Started
+Wed May 26 16:52:08 2021 INFO: pillar1_covid_update: Reading configuration file C:\covid_update\config\lower.csv 
+Wed May 26 16:52:08 2021 INFO: pillar1_covid_update: Retrieving file https://coronavirus.data.gov.uk/downloads/csv/coronavirus-cases_latest.csv 
+Wed May 26 16:52:08 2021 INFO: pillar1_covid_update: Extracting data for ltla ['Adur', 'Arun', 'Brighton and Hove', 'Chichester', 'Crawley', 'Horsham', 'Norwich', 'Vale of White Horse', 'Worthing'] 
+Wed May 26 16:52:09 2021 INFO: pillar1_covid_update: 0 data rows were found for ltla Adur 
+Wed May 26 16:52:09 2021 INFO: pillar1_covid_update: 316 data rows were found for ltla Arun 
+Wed May 26 16:52:09 2021 INFO: pillar1_covid_update: 0 data rows were found for ltla Brighton and Hove 
+Wed May 26 16:52:09 2021 INFO: pillar1_covid_update: 0 data rows were found for ltla Chichester 
+Wed May 26 16:52:09 2021 INFO: pillar1_covid_update: 412 data rows were found for ltla Crawley 
+Wed May 26 16:52:09 2021 INFO: pillar1_covid_update: 0 data rows were found for ltla Horsham 
+Wed May 26 16:52:09 2021 INFO: pillar1_covid_update: 324 data rows were found for ltla Norwich 
+Wed May 26 16:52:09 2021 INFO: pillar1_covid_update: 414 data rows were found for ltla Vale of White Horse 
+Wed May 26 16:52:09 2021 INFO: pillar1_covid_update: 409 data rows were found for ltla Worthing 
+Wed May 26 16:52:10 2021 INFO: nhs_trust_deaths.py: Started
+Wed May 26 16:52:10 2021 INFO: nhs_trust_deaths.py: Reading configuration file C:\covid_update\config\trust_deaths.csv 
+Wed May 26 16:52:10 2021 INFO: nhs_trust_deaths.py: Downloading file https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2021/05/COVID-19-total-announced-deaths-26-May-2021.xlsx 
+Wed May 26 16:52:11 2021 INFO: nhs_trust_deaths.py: Converting Excel file c:\temp\trust_deaths.xlsx 
+Wed May 26 16:52:17 2021 INFO: nhs_trust_deaths.py: Extracting data from temporary csv file c:\temp\trust_deaths.csv 
+Wed May 26 16:52:17 2021 ERROR: nhs_trust_deaths.py: Could not open c:\temp\trust_deaths.csv

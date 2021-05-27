@@ -1,0 +1,68 @@
+covid update Installation 
+=========================
+This document details the procedure required to install the 
+Python utility scripts delivered in 'covid_update'. The 
+procedure consists of the following two main sub-sections.
+
+a. Installation of third party software.
+b. Installation of 'covid_update' contents from GitHub
+
+1. Installation of third party software
+-------------------------------
+The utility scripts delivered in 'covid_update' require the following
+3rd party software:
+
+a. ActivePython ( version Python 3.7.4 or above )
+b. Microsoft Excel
+
+Python can be downloaded and installed from the following links.
+
+Software          | Link 
+------------------+---------------------------------------------------------
+ActivePython      | https://www.activestate.com/products/python/downloads/
+                  | + https://platform.activestate.com/sign-in
+------------------+---------------------------------------------------------
+
+1.1 Installing python
+---------------------
+Download and install the software from the link above.
+To install ActivePython you must set up an ActiveState login.
+
+1.2 Installing Microsoft Excel
+-------------------------------
+Microsoft Excel can be downloaded from the relevant Microsoft web site for
+a fee. Once installed the following additional steps must be performed.
+
+a. Store the ExtractTrustDeaths macro ( in Excel )
+
+Open any spreadsheet
+Select tab 'View'
+Click 'Unhide'
+Click 'OK' to 'Unhide workbook:' 'PERSONAL.XLSB'
+Select tab 'View' in PESONAL.XLSB workbook
+Select 'View macros' from 'Macros' drop down.
+Enter 'ExtractTrustDeaths' in 'Macro name:' field
+Click 'Create'  ( Which will start up Virtual BAsic )
+Clear all text in 'Module <n>' window
+Copy and paste text in file 'ExtractTrustDeaths.txt' into  'Module <n>' window
+Ctrl + S
+Alt + Q
+Select tab 'View' in PESONAL.XLSB workbook
+Click 'hide'
+In remaining spreadsheet window Click 'File' then 'Save'
+
+b. In admin cmd session create c:\temp
+
+mkdir c:\temp
+
+c. Copy PERSONAL.XLSB as follows:
+
+cd C:\Users\nigel\Documents
+erase /f /s PERSONAL.XLSB
+copy C:\Users\nigel\AppData\Roaming\Microsoft\Excel\XLSTART\PERSONAL.XLSB
+
+2. Installation of 'covid_update' contents from GitHub
+-----------------------------------------------------------
+TBA
+
+
