@@ -16,7 +16,7 @@ curl -sI "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cum
 
 - Download data to temp file
 
-curl -o \temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv" 
+curl -o .\temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv" 
 
 Region
 ------
@@ -29,7 +29,7 @@ curl -sI "https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=cum
 
 - Download data to temp file
 
-curl -o \temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv"
+curl -o .\temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv"
 
 utla
 ----
@@ -42,7 +42,7 @@ curl -sI "https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=cumCa
 
 - Download data to temp file
 
-curl -o \temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv"
+curl -o .\temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv"
 
 ltla
 ----
@@ -55,4 +55,4 @@ curl -sI "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCa
 
 - Download data to temp file
 
-curl -o \temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv"
+curl -o .\temp.csv "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv"

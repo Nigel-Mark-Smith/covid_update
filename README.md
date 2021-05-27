@@ -12,11 +12,11 @@ amend the following files to add the name(s) of the nhs nation, nhs regions, nhs
 authrorities (utla's) nhs lower tier local authorities (ltla's) and nhs hospital trusts they wish 
 to monitor.
 
-./config/nation.csv
-./config/region.csv
-./config/upper.csv
-./config/lower.csv
-./config/trust_deaths.csv
+- ./config/nation.csv
+- ./config/region.csv
+- ./config/upper.csv
+- ./config/lower.csv
+- ./config/trust_deaths.csv
 
 At the time of writing the default configuration files delivered contain valid nhs organization names.  
 
