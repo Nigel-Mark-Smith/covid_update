@@ -8,8 +8,10 @@
 # number of infectious people which is derived from the cumulative confirmed cases 
 # data and a constant 'InfectiousPeriod' repesenting the number of days for which 
 # a confirmed case remains infectious. Log messages indicating whether the rolling average 
-# number of infectious people is increasing of decreasing are also generated. The rolling 
-# average period is the same as 'InfectiousPeriod'. For further details on the data used see:
+# number of infectious people is potentially or (almost) certainly increasing or decreasing 
+# are also generated for the latest rolling period. The rolling average period is the same 
+# as 'InfectiousPeriod'. A threshold 'Variation' is set above which caes are defintely 
+# increasing or decresing. For further details on the data used see:
 # 
 # https://coronavirus.data.gov.uk/about-data
 # 
@@ -49,7 +51,7 @@
 # This csv file consists of one line with the following comma
 # separated values:
 #
-# <url of download file>,<area tier type>,<infectious period in days>,<region 1>,<region 2>...<region x>
+# <url of download file>,<area tier type>,<infectious period in days>,<variation limit>.<region 1>,<region 2>...<region x>
 #
 # Where:
 # 
@@ -172,9 +174,6 @@ def GetDecimalPart(string) :
 ### MAIN ###
 ############
 
-# Allowed variation in infetctious count.
-Variation = 5
-
 # File names and modes
 Currentdir = os.getcwd()
 LogDir = Currentdir + '\\log'
@@ -235,7 +234,8 @@ if ( ConfigurationFileData != empty ) :
     TierString = ConfigurationFileDataList[1]
     StatisticsFilename = DataDir + '\\' + ReturnFileName('pillar1',ReturnTierType(TierString))
     InfectiousPeriod = int(ConfigurationFileDataList[2])
-    Areas = ConfigurationFileDataList[3:]
+    Variation = int(ConfigurationFileDataList[3])
+    Areas = ConfigurationFileDataList[4:]
 else:
     Errormessage = 'No data in ' + ConfigurationFilename
     File.Logerror(ErrorfileObject,module,Errormessage,error)
@@ -295,7 +295,7 @@ for ResponseLine in ResponseLines :
                 # Note: data is provided in descending date order and must be reversed
                 AreaData[Area].insert(0,DataRow)
                 
-# Dislay the number of dat items detected for each area
+# Dislay the number of data items detected for each area
 for Area in Areas :
     Errormessage = '%i data rows were found for %s %s ' % (AreaDataCount[Area],TierString,Area)
     File.Logerror(ErrorFileObject,module,Errormessage,info)
@@ -332,8 +332,9 @@ for Area in AreaData :
             InfectiousIncrease = Infectious - InfectiousPrevious
             if ( InfectiousIncrease > 0 ) : Indicator = 'Potentially Increasing'
             if ( InfectiousIncrease >= Variation  ) : Indicator = 'Increasing'
-            Errormessage = 'Infectious cases %s in %s on %s' % (Indicator,Area,str(CurrentSpecimenDate))
-            File.Logerror(ErrorFileObject,module,Errormessage,info)
+            if ( len(AreaData[Area]) - SpecimenPeriod < InfectiousPeriod ) :
+                Errormessage = 'Infectious cases %s in %s on %s' % (Indicator,Area,str(CurrentSpecimenDate))
+                File.Logerror(ErrorFileObject,module,Errormessage,info)
         
         # Save previous infectious numbers for attention flag and increase/decrease warnings.
         InfectiousPrevious = Infectious

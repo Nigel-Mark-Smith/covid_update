@@ -223,7 +223,7 @@ DateToday = date.today()
 
 # Spreadsheet and script details
 Spreadsheet = 'excel.exe'
-ConversionScript = 'c:\\covid_update\\convert_workbook.vbs'
+ConversionScript = Currentdir + '\\convert_workbook.vbs'
 ConversionWait = 6
 
 # Web page constants

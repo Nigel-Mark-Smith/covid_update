@@ -1,1 +1,1 @@
-https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv,ltla,7,Adur,Arun,Brighton and Hove,Chichester,Crawley,Horsham,Norwich,Vale of White Horse,Worthing
+https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv,ltla,7,5,Adur,Arun,Brighton and Hove,Chichester,Crawley,Horsham,Norwich,Vale of White Horse,Worthing
