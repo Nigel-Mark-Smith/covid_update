@@ -153,7 +153,13 @@ def FindLastDeath(list) :
     "This procedure will find the highest index (date) of the list where the value is non-zero"
     
     index = 0
+    
     for item in list:
+    
+        # Protect against empty elements
+        if (len(item) == 0) : continue
+        
+        # Determine number of deaths
         value = int(item)
         if ( value > 0 ) : result = index
         index += 1
