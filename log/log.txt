@@ -1,171 +1,168 @@
-Tue Mar  8 10:04:54 2022 INFO: pillar1_covid_update: Started
-Tue Mar  8 10:04:54 2022 INFO: pillar1_covid_update: Reading configuration file H:\projects\covid_update\config\nation.csv 
-Tue Mar  8 10:04:54 2022 INFO: pillar1_covid_update: Retrieving file https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv 
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Extracting data for nation ['England'] 
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: 767 data rows were found for nation England 
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in England on 2022-02-28
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in England on 2022-03-01
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in England on 2022-03-02
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in England on 2022-03-03
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in England on 2022-03-04
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in England on 2022-03-05
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in England on 2022-03-06
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Completed
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Started
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Reading configuration file H:\projects\covid_update\config\region.csv 
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Retrieving file https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv 
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Extracting data for region ['South East', 'East of England'] 
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: 763 data rows were found for region South East 
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: 740 data rows were found for region East of England 
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in South East on 2022-02-28
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in South East on 2022-03-01
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in South East on 2022-03-02
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in South East on 2022-03-03
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in South East on 2022-03-04
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in South East on 2022-03-05
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in South East on 2022-03-06
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East of England on 2022-02-28
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in East of England on 2022-03-01
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in East of England on 2022-03-02
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in East of England on 2022-03-03
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in East of England on 2022-03-04
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in East of England on 2022-03-05
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Infectious cases Increasing in East of England on 2022-03-06
-Tue Mar  8 10:04:55 2022 WARNING: pillar1_covid_update: Increase in infectious count detected, please view H:\projects\covid_update\data\pillar1_region_20220308.csv
-Tue Mar  8 10:04:55 2022 INFO: pillar1_covid_update: Completed
-Tue Mar  8 10:04:56 2022 INFO: pillar1_covid_update: Started
-Tue Mar  8 10:04:56 2022 INFO: pillar1_covid_update: Reading configuration file H:\projects\covid_update\config\upper.csv 
-Tue Mar  8 10:04:56 2022 INFO: pillar1_covid_update: Retrieving file https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv 
-Tue Mar  8 10:04:57 2022 INFO: pillar1_covid_update: Extracting data for utla ['East Sussex', 'Brighton and Hove', 'Norfolk', 'Oxfordshire', 'West Sussex'] 
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: 726 data rows were found for utla East Sussex 
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: 761 data rows were found for utla Brighton and Hove 
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: 727 data rows were found for utla Norfolk 
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: 735 data rows were found for utla Oxfordshire 
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: 742 data rows were found for utla West Sussex 
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East Sussex on 2022-02-28
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Potentially Increasing in East Sussex on 2022-03-01
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Increasing in East Sussex on 2022-03-02
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Increasing in East Sussex on 2022-03-03
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Increasing in East Sussex on 2022-03-04
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Increasing in East Sussex on 2022-03-05
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Increasing in East Sussex on 2022-03-06
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-02-28
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-01
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-02
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-03
-Tue Mar  8 10:04:58 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-04
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-05
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-06
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norfolk on 2022-02-28
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Norfolk on 2022-03-01
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Norfolk on 2022-03-02
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Norfolk on 2022-03-03
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Norfolk on 2022-03-04
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Norfolk on 2022-03-05
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Norfolk on 2022-03-06
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Oxfordshire on 2022-02-28
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Oxfordshire on 2022-03-01
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Oxfordshire on 2022-03-02
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Oxfordshire on 2022-03-03
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Oxfordshire on 2022-03-04
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Oxfordshire on 2022-03-05
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Oxfordshire on 2022-03-06
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in West Sussex on 2022-02-28
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in West Sussex on 2022-03-01
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in West Sussex on 2022-03-02
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in West Sussex on 2022-03-03
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in West Sussex on 2022-03-04
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in West Sussex on 2022-03-05
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Infectious cases Increasing in West Sussex on 2022-03-06
-Tue Mar  8 10:04:59 2022 WARNING: pillar1_covid_update: Increase in infectious count detected, please view H:\projects\covid_update\data\pillar1_upper_20220308.csv
-Tue Mar  8 10:04:59 2022 INFO: pillar1_covid_update: Completed
-Tue Mar  8 10:05:01 2022 INFO: pillar1_covid_update: Started
-Tue Mar  8 10:05:01 2022 INFO: pillar1_covid_update: Reading configuration file H:\projects\covid_update\config\lower.csv 
-Tue Mar  8 10:05:01 2022 INFO: pillar1_covid_update: Retrieving file https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv 
-Tue Mar  8 10:05:03 2022 INFO: pillar1_covid_update: Extracting data for ltla ['Adur', 'Arun', 'Brighton and Hove', 'Chichester', 'Crawley', 'Horsham', 'Norwich', 'Vale of White Horse', 'Worthing'] 
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: 718 data rows were found for ltla Adur 
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: 723 data rows were found for ltla Arun 
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: 761 data rows were found for ltla Brighton and Hove 
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: 742 data rows were found for ltla Chichester 
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: 726 data rows were found for ltla Crawley 
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: 728 data rows were found for ltla Horsham 
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: 725 data rows were found for ltla Norwich 
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: 731 data rows were found for ltla Vale of White Horse 
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: 723 data rows were found for ltla Worthing 
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Adur on 2022-02-28
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Adur on 2022-03-01
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Adur on 2022-03-02
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Adur on 2022-03-03
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Adur on 2022-03-04
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Adur on 2022-03-05
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Adur on 2022-03-06
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Arun on 2022-02-28
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Arun on 2022-03-01
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Arun on 2022-03-02
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Arun on 2022-03-03
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Arun on 2022-03-04
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Arun on 2022-03-05
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Arun on 2022-03-06
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-02-28
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-01
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-02
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-03
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-04
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-05
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Brighton and Hove on 2022-03-06
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Chichester on 2022-02-28
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Chichester on 2022-03-01
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Chichester on 2022-03-02
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Chichester on 2022-03-03
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Chichester on 2022-03-04
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Potentially Increasing in Chichester on 2022-03-05
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Chichester on 2022-03-06
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Potentially Increasing in Crawley on 2022-02-28
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Crawley on 2022-03-01
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Crawley on 2022-03-02
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Crawley on 2022-03-03
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Crawley on 2022-03-04
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Crawley on 2022-03-05
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Crawley on 2022-03-06
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Horsham on 2022-02-28
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Horsham on 2022-03-01
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Horsham on 2022-03-02
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Horsham on 2022-03-03
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Horsham on 2022-03-04
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Horsham on 2022-03-05
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Horsham on 2022-03-06
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norwich on 2022-02-28
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norwich on 2022-03-01
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Norwich on 2022-03-02
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Norwich on 2022-03-03
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Norwich on 2022-03-04
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Norwich on 2022-03-05
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Norwich on 2022-03-06
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Potentially Increasing in Vale of White Horse on 2022-02-28
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Vale of White Horse on 2022-03-01
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Vale of White Horse on 2022-03-02
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Vale of White Horse on 2022-03-03
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Vale of White Horse on 2022-03-04
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Vale of White Horse on 2022-03-05
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Vale of White Horse on 2022-03-06
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Potentially Increasing in Worthing on 2022-02-28
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Worthing on 2022-03-01
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Worthing on 2022-03-02
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Worthing on 2022-03-03
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Worthing on 2022-03-04
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Increasing in Worthing on 2022-03-05
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Worthing on 2022-03-06
-Tue Mar  8 10:05:07 2022 WARNING: pillar1_covid_update: Increase in infectious count detected, please view H:\projects\covid_update\data\pillar1_lower_20220308.csv
-Tue Mar  8 10:05:07 2022 INFO: pillar1_covid_update: Completed
-Tue Mar  8 10:05:07 2022 INFO: nhs_trust_deaths.py: Started
-Tue Mar  8 10:05:07 2022 INFO: nhs_trust_deaths.py: Reading configuration file H:\projects\covid_update\config\trust_deaths.csv 
-Tue Mar  8 10:05:08 2022 INFO: nhs_trust_deaths.py: Downloading file https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2022/03/COVID-19-total-announced-deaths-07-March-2022.xlsx 
-Tue Mar  8 10:05:08 2022 INFO: nhs_trust_deaths.py: Converting Excel file c:\temp\trust_deaths.xlsx 
-Tue Mar  8 10:05:14 2022 INFO: nhs_trust_deaths.py: Extracting data from temporary csv file c:\temp\trust_deaths.csv 
-Tue Mar  8 10:05:14 2022 INFO: nhs_trust_deaths.py: Writing data to file H:\projects\covid_update\data\trust_deaths_20220308.csv 
-Tue Mar  8 10:05:14 2022 WARNING: nhs_trust_deaths.py: The last death in NORFOLK AND NORWICH UNIVERSITY HOSPITALS NHS FOUNDATION TRUST was on 2022-03-05 which is a week or less ago 
-Tue Mar  8 10:05:14 2022 INFO: nhs_trust_deaths.py: The last death in OXFORD UNIVERSITY HOSPITALS NHS FOUNDATION TRUST was on 2022-02-23
-Tue Mar  8 10:05:14 2022 INFO: nhs_trust_deaths.py: The last death in SUSSEX COMMUNITY NHS FOUNDATION TRUST was on 2021-11-21
-Tue Mar  8 10:05:14 2022 WARNING: nhs_trust_deaths.py: The last death in UNIVERSITY HOSPITALS SUSSEX NHS FOUNDATION TRUST was on 2022-03-03 which is a week or less ago 
-Tue Mar  8 10:05:14 2022 WARNING: nhs_trust_deaths.py: Attention flag set for H:\projects\covid_update\data\trust_deaths_20220308.csv please view
-Tue Mar  8 10:05:14 2022 INFO: nhs_trust_deaths.py: Completed
+Mon Apr 25 08:29:40 2022 INFO: pillar1_covid_update: Started
+Mon Apr 25 08:29:40 2022 INFO: pillar1_covid_update: Reading configuration file H:\projects\covid_update\config\nation.csv 
+Mon Apr 25 08:29:40 2022 INFO: pillar1_covid_update: Retrieving file https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv 
+Mon Apr 25 08:29:41 2022 INFO: pillar1_covid_update: Extracting data for nation ['England'] 
+Mon Apr 25 08:29:41 2022 INFO: pillar1_covid_update: 813 data rows were found for nation England 
+Mon Apr 25 08:29:41 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in England on 2022-04-15
+Mon Apr 25 08:29:41 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in England on 2022-04-16
+Mon Apr 25 08:29:41 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in England on 2022-04-17
+Mon Apr 25 08:29:41 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in England on 2022-04-18
+Mon Apr 25 08:29:41 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in England on 2022-04-19
+Mon Apr 25 08:29:41 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in England on 2022-04-20
+Mon Apr 25 08:29:41 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in England on 2022-04-21
+Mon Apr 25 08:29:41 2022 INFO: pillar1_covid_update: Completed
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Started
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Reading configuration file H:\projects\covid_update\config\region.csv 
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Retrieving file https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv 
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Extracting data for region ['South East', 'East of England'] 
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: 809 data rows were found for region South East 
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: 809 data rows were found for region East of England 
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in South East on 2022-04-15
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in South East on 2022-04-16
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in South East on 2022-04-17
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in South East on 2022-04-18
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in South East on 2022-04-19
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in South East on 2022-04-20
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in South East on 2022-04-21
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East of England on 2022-04-15
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East of England on 2022-04-16
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East of England on 2022-04-17
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East of England on 2022-04-18
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East of England on 2022-04-19
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East of England on 2022-04-20
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East of England on 2022-04-21
+Mon Apr 25 08:29:42 2022 INFO: pillar1_covid_update: Completed
+Mon Apr 25 08:29:43 2022 INFO: pillar1_covid_update: Started
+Mon Apr 25 08:29:43 2022 INFO: pillar1_covid_update: Reading configuration file H:\projects\covid_update\config\upper.csv 
+Mon Apr 25 08:29:43 2022 INFO: pillar1_covid_update: Retrieving file https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv 
+Mon Apr 25 08:29:45 2022 INFO: pillar1_covid_update: Extracting data for utla ['East Sussex', 'Brighton and Hove', 'Norfolk', 'Oxfordshire', 'West Sussex'] 
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: 772 data rows were found for utla East Sussex 
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: 809 data rows were found for utla Brighton and Hove 
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: 773 data rows were found for utla Norfolk 
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: 781 data rows were found for utla Oxfordshire 
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: 809 data rows were found for utla West Sussex 
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East Sussex on 2022-04-15
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East Sussex on 2022-04-16
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East Sussex on 2022-04-17
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East Sussex on 2022-04-18
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East Sussex on 2022-04-19
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East Sussex on 2022-04-20
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in East Sussex on 2022-04-21
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-15
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-16
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-17
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-18
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-19
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-20
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-21
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norfolk on 2022-04-15
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norfolk on 2022-04-16
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norfolk on 2022-04-17
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norfolk on 2022-04-18
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norfolk on 2022-04-19
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norfolk on 2022-04-20
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norfolk on 2022-04-21
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Oxfordshire on 2022-04-15
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Oxfordshire on 2022-04-16
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Oxfordshire on 2022-04-17
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Oxfordshire on 2022-04-18
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Oxfordshire on 2022-04-19
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Oxfordshire on 2022-04-20
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Oxfordshire on 2022-04-21
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in West Sussex on 2022-04-15
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in West Sussex on 2022-04-16
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in West Sussex on 2022-04-17
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in West Sussex on 2022-04-18
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in West Sussex on 2022-04-19
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in West Sussex on 2022-04-20
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in West Sussex on 2022-04-21
+Mon Apr 25 08:29:46 2022 INFO: pillar1_covid_update: Completed
+Mon Apr 25 08:29:56 2022 INFO: pillar1_covid_update: Started
+Mon Apr 25 08:29:56 2022 INFO: pillar1_covid_update: Reading configuration file H:\projects\covid_update\config\lower.csv 
+Mon Apr 25 08:29:56 2022 INFO: pillar1_covid_update: Retrieving file https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&metric=newCasesBySpecimenDate&metric=cumCasesBySpecimenDateRate&format=csv 
+Mon Apr 25 08:30:00 2022 INFO: pillar1_covid_update: Extracting data for ltla ['Adur', 'Arun', 'Brighton and Hove', 'Chichester', 'Crawley', 'Horsham', 'Norwich', 'Vale of White Horse', 'Worthing'] 
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: 764 data rows were found for ltla Adur 
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: 769 data rows were found for ltla Arun 
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: 809 data rows were found for ltla Brighton and Hove 
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: 809 data rows were found for ltla Chichester 
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: 772 data rows were found for ltla Crawley 
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: 774 data rows were found for ltla Horsham 
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: 771 data rows were found for ltla Norwich 
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: 777 data rows were found for ltla Vale of White Horse 
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: 769 data rows were found for ltla Worthing 
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Adur on 2022-04-15
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Adur on 2022-04-16
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Adur on 2022-04-17
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Adur on 2022-04-18
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Adur on 2022-04-19
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Adur on 2022-04-20
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Adur on 2022-04-21
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Arun on 2022-04-15
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Arun on 2022-04-16
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Arun on 2022-04-17
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Arun on 2022-04-18
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Arun on 2022-04-19
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Arun on 2022-04-20
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Arun on 2022-04-21
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-15
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-16
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-17
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-18
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-19
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-20
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Brighton and Hove on 2022-04-21
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Chichester on 2022-04-15
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Chichester on 2022-04-16
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Chichester on 2022-04-17
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Chichester on 2022-04-18
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Chichester on 2022-04-19
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Chichester on 2022-04-20
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Chichester on 2022-04-21
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Crawley on 2022-04-15
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Crawley on 2022-04-16
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Crawley on 2022-04-17
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Crawley on 2022-04-18
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Crawley on 2022-04-19
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Crawley on 2022-04-20
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Crawley on 2022-04-21
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Horsham on 2022-04-15
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Horsham on 2022-04-16
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Horsham on 2022-04-17
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Horsham on 2022-04-18
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Horsham on 2022-04-19
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Horsham on 2022-04-20
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Horsham on 2022-04-21
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norwich on 2022-04-15
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norwich on 2022-04-16
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norwich on 2022-04-17
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norwich on 2022-04-18
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Potentially Increasing in Norwich on 2022-04-19
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norwich on 2022-04-20
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Norwich on 2022-04-21
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Vale of White Horse on 2022-04-15
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Vale of White Horse on 2022-04-16
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Vale of White Horse on 2022-04-17
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Vale of White Horse on 2022-04-18
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Vale of White Horse on 2022-04-19
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Vale of White Horse on 2022-04-20
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Vale of White Horse on 2022-04-21
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Worthing on 2022-04-15
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Worthing on 2022-04-16
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Worthing on 2022-04-17
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Worthing on 2022-04-18
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Worthing on 2022-04-19
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Worthing on 2022-04-20
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Infectious cases Decreasing in Worthing on 2022-04-21
+Mon Apr 25 08:30:04 2022 INFO: pillar1_covid_update: Completed
+Mon Apr 25 08:30:06 2022 INFO: nhs_trust_deaths.py: Started
+Mon Apr 25 08:30:06 2022 INFO: nhs_trust_deaths.py: Reading configuration file H:\projects\covid_update\config\trust_deaths.csv 
+Mon Apr 25 08:30:07 2022 INFO: nhs_trust_deaths.py: Downloading file https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2022/04/COVID-19-total-announced-deaths-22-April-2022.xlsx 
+Mon Apr 25 08:30:08 2022 INFO: nhs_trust_deaths.py: Converting Excel file c:\temp\trust_deaths.xlsx 
+Mon Apr 25 08:30:28 2022 INFO: nhs_trust_deaths.py: Extracting data from temporary csv file c:\temp\trust_deaths.csv 
+Mon Apr 25 08:30:28 2022 INFO: nhs_trust_deaths.py: Writing data to file H:\projects\covid_update\data\trust_deaths_20220425.csv 
+Mon Apr 25 08:30:29 2022 WARNING: nhs_trust_deaths.py: The last death in NORFOLK AND NORWICH UNIVERSITY HOSPITALS NHS FOUNDATION TRUST was on 2022-04-19 which is a week or less ago 
+Mon Apr 25 08:30:29 2022 WARNING: nhs_trust_deaths.py: The last death in OXFORD UNIVERSITY HOSPITALS NHS FOUNDATION TRUST was on 2022-04-18 which is a week or less ago 
+Mon Apr 25 08:30:29 2022 INFO: nhs_trust_deaths.py: The last death in SUSSEX COMMUNITY NHS FOUNDATION TRUST was on 2021-11-21
+Mon Apr 25 08:30:29 2022 WARNING: nhs_trust_deaths.py: The last death in UNIVERSITY HOSPITALS SUSSEX NHS FOUNDATION TRUST was on 2022-04-19 which is a week or less ago 
+Mon Apr 25 08:30:29 2022 WARNING: nhs_trust_deaths.py: Attention flag set for H:\projects\covid_update\data\trust_deaths_20220425.csv please view
+Mon Apr 25 08:30:29 2022 INFO: nhs_trust_deaths.py: Completed

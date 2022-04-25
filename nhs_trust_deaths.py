@@ -171,7 +171,7 @@ def FindLastDeath(list) :
 # to month numbers
 def ReturnDate(specimendate,conversion) :
 
-    "This procedure returns a date object from a 'specimendate. The dictionary 'conversion' is used to convert month strings to month numbers"
+    "This procedure returns a date object from a 'specimendate'. The dictionary 'conversion' is used to convert month strings to month numbers"
     
     list = specimendate.split('-')
     yearstring = '20' + list[2]
@@ -230,7 +230,7 @@ DateToday = date.today()
 # Spreadsheet and script details
 Spreadsheet = 'excel.exe'
 ConversionScript = Currentdir + '\\convert_workbook.vbs'
-ConversionWait = 6
+ConversionWait = 20
 
 # Web page constants
 WebPage = 'https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/'
